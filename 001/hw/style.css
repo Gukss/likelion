@@ -1,3 +1,9 @@
+/* 초기화 */
+* {margin: 0; padding: 0;}
+
+/* wrap */
+#wrap {width: 1200px;}
+
 /* header */
 .header {	display: flex; margin: 10px; width: 80%; height: 100px; margin-right: auto;margin-left: auto; }
 .header img {width: 90px; height: 90px; margin: 10px;}
@@ -21,8 +27,14 @@
 .main .section img {width: 100%;}
 .main .section .boot {background-color: #fc0; font-weight: bold; padding: 2px; font-size: 15px; padding-left: 5px;}
 .main .section .boot_container {display: flex; overflow: hidden;  flex-wrap: wrap; justify-content: space-evenly; align-items: center; margin: 5px;}
-.main .section .boot_container .item {width: 31%; height: 30px; background-color: #ffdfbf; text-align: center; font-size: 12px; margin: 2px; padding-top: 11px; font-weight: bold;}
+.main .section .boot_container .boot_item {width: 31%; height: 30px; background-color: #ffdfbf; text-align: center; font-size: 12px; margin: 2px; padding-top: 11px; font-weight: bold;}
+
 .main .section .track {background-color: #fc0; font-weight: bold; padding: 2px; font-size: 15px; padding-left: 5px;}
+.main .section .track_container {display: flex;}
+.main .section .track_container .track_item_containter {border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; width: 30%; padding: 10px; text-align: center; margin-top: 10px;}
+.main .section .track_container .track_item_containter img {width: 70%; margin: 30px 0;}
+.main .section .track_container .track_item_containter div {font-size: 12px; font-weight: bold; text-align: left;}
+
 
 /* aside */
 .main .aside {background-color: #ddd; width: 40%; margin-top: 10px;}
